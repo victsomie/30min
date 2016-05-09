@@ -1,3 +1,13 @@
 .gallery img{
     width: 23%
 }
+
+.last{
+    background-color: #8E7F52;
+
+}
+
+footer{
+    background-color: #756843;
+    min-height: 20%
+}
