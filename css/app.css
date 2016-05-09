@@ -2,12 +2,34 @@
     width: 23%
 }
 
+
+
+
+.bg-theme-color1{
+    background-color: #ff77aa;
+}
+.bg-theme-color2{
+    background-color: #ff99cc;
+}
+/*lightest color*/
+.bg-theme-color3{
+    background-color: #ffbbee;
+}
+.bg-theme-color4{
+
+}
+.bg-theme-color5{
+
+}
+
+
+
 .last{
-    background-color: #8E7F52;
+    background-color: #ff5588;
 
 }
 
 footer{
-    background-color: #756843;
+    background-color: #ff3377;
     min-height: 20%
 }
