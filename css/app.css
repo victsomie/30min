@@ -1,6 +1,11 @@
 .gallery img{
     width: 100%;
 }
+.gallery img:hover{
+    border: 2px solid black;
+    opacity: .8
+
+}
 
 .full_height{
     min-height: 100%;
@@ -13,7 +18,11 @@
     padding: 50px 0 50px 0;
 }
 
-
+/*remove Padding styles from the columns in the gallery */
+.gallery .column{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /*=======Themes colors=======*/
 /*Background theme color*/
