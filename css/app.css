@@ -9,6 +9,14 @@
     min-height: 30%;
 }
 
+.hero{
+    padding: 50px 0 50px 0;
+}
+
+
+
+/*=======Themes colors=======*/
+/*Background theme color*/
 
 .bg-theme-color1{
     background-color: #ff77aa;
@@ -37,5 +45,5 @@
 
 footer{
     background-color: #ff3377;
-    min-height: 20%
+    min-height: 5%
 }
