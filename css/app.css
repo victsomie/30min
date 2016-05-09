@@ -1,8 +1,13 @@
 .gallery img{
-    width: 23%
+    width: 23%;
 }
 
-
+.full_height{
+    min-height: 100%;
+}
+.third_height{
+    min-height: 30%;
+}
 
 
 .bg-theme-color1{
@@ -19,7 +24,8 @@
 
 }
 .bg-theme-color5{
-
+    background-color: black;
+    color: aliceblue
 }
 
 
