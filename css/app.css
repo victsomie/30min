@@ -1,11 +1,20 @@
+/*Menu stylings*/>
+.menu{
+    background-color: red;
+    min-height:  100px
+}
 
 
+
+
+/*====gallery stylings=======*/
 .gallery img{
     width: 100%;
+    opacity: .8
 }
 .gallery img:hover{
-    border: 2px solid black;
-    opacity: .8
+    border: 0px solid black;
+    opacity: 1
 }
 
 .full_height{
