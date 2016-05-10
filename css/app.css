@@ -1,10 +1,11 @@
+
+
 .gallery img{
     width: 100%;
 }
 .gallery img:hover{
     border: 2px solid black;
     opacity: .8
-
 }
 
 .full_height{
