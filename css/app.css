@@ -1,6 +1,15 @@
+.logo{
+    font-family: 'Metrophobic', Arial, serif;
+    font-weight: 400;
+    color: white
+}
+
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 800
+}
+p{
+    font-weight: 100
 }
 /*Menu stylings*/>
 .menu{
@@ -39,7 +48,10 @@ h1{
 }
 
 .hero{
-    padding: 50px 0 50px 0;
+    min-height: 100%;
+    padding: 100px 0 100px 0;
+    background-image: url(/img/top-bg.jpg);
+    background-position: 100% 100%
 }
 
 /*remove Padding styles from the columns in the gallery */
