@@ -5,6 +5,16 @@
 }
 
 
+.row{
+    margin: 0;
+    min-width:100%
+}
+.about .column{
+    padding: 0
+}
+.about .column>img{
+    width: 100%
+}
 
 
 /*====gallery stylings=======*/
