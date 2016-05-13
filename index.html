@@ -49,6 +49,14 @@
                 <h1 style="color: white">Hakuna Matata</h1>
                 <h3>Framework Challenge!</h3>
                 <div class="button btn-hollow">30 Min framework challenge!</div>
+                <button id="clickme">0</button>
+                <script>
+                    var counter = 0;
+                    $('#clickme').click(function (){
+                        counter++;
+                        $(this).html(counter);
+                    });
+                </script>
             </div>
         </div>
     </div>

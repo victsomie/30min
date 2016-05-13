@@ -4,6 +4,7 @@
 Primary style
 
 -------------------------------- */
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,6 +28,7 @@ body.overflow-hidden {
   /* when author bio is visible, the out-of-focus content won't scroll */
   overflow: hidden;
 }
+
 
 a {
   color: #f25f5c;
@@ -55,7 +57,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-*/
+
 /* --------------------------------
 
 Main components
