@@ -24,13 +24,20 @@
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,900,600,500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
-    <link rel="stylesheet" href="css/app.cssx">
+    <link rel="stylesheet" href="css/app.cssxx">
+    <link rel="stylesheet" href="/css/foundation.css">
 
     <link rel="stylesheet" href="/SectionSeparators/css/normalize.cs">
     <link rel="stylesheet" href="/SectionSeparators/css/component.css">
     <link rel="stylesheet" href="/SectionSeparators/css/icons.css">
-
     <link rel="stylesheet" href="/SectionSeparators/css/demo.css">
+
+    <!--====Start Hover stylings here-->
+            <link rel="stylesheet" type="text/css" href="/DirectionAwareHoverEffect/css/demo.cssx" />
+        <link rel="stylesheet" type="text/css" href="/DirectionAwareHoverEffect/css/style.css" />
+    <!--====End Hover stylings here-->
+
+
 </head>
 
 <body>
@@ -129,30 +136,30 @@ CHANGES I HAVE TO MAKE IN COMPONENTS.CSS
 
 
         <!--Start potifolio here-->
-        <section>
-            <ul id="da-thumbs" class="da-thumbs">
-                <li>
+        <section class="row">
+            <ul id="da-thumbs" class="da-thumbs column">
+                <li class="column small-12 medium-6 large-4">
                     <a href="http://dribbble.com/shots/505046-Menu">
-                        <img src="images/1.jpg" />
+                        <img src="/DirectionAwareHoverEffect/images/1.jpg" />
                         <div><span>Menu by Simon Jensen</span></div>
                     </a>
                 </li>
-                <li>
+                <li class="column small-12 medium-6 large-4">
                     <a href="http://dribbble.com/shots/504336-TN-Aquarium">
-                        <img src="images/2.jpg" />
+                        <img src="/DirectionAwareHoverEffect/images/2.jpg" />
                         <div><span>TN Aquarium by Charlie Gann</span></div>
                     </a>
                 </li>
-                <li>
+                <li class="column small-12 medium-6 large-4">
                     <a href="http://dribbble.com/shots/504197-Mr-Crabs">
-                        <img src="images/3.jpg" />
+                        <img src="/DirectionAwareHoverEffect/images/3.jpg" />
                         <div><span>Mr. Crabs by John Generalov</span></div>
                     </a>
                 </li>
             </ul>
         </section>
 
-            <!--End potifolio here-->
+        <!--End potifolio here-->
 
 
 
@@ -211,6 +218,23 @@ CHANGES I HAVE TO MAKE IN COMPONENTS.CSS
         });
     </script>
     <!----------->
+
+
+
+
+    <!--Start Hover scripts here-->
+
+    <script type="text/javascript" src="/DirectionAwareHoverEffect/js/jquery.hoverdir.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $(' #da-thumbs > li ').each(function () {
+                $(this).hoverdir();
+            });
+
+        });
+    </script>
+    <!--Start Hover scripts here-->
 </body>
 
 </html>
