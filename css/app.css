@@ -1,54 +1,70 @@
-.logo{
+/*+++++SECTIONS SPACES USING PADDING*/
+
+.section-space {
+    padding: 5% 0;
+}
+
+
+/*+++++END SECTIONS SPACES USING PADDING*/
+
+.logo {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: white
-
 }
 
-h1{
+h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800
 }
-p{
-    font-weight: 100
+
+p {
+    font-weight: 100;
 }
-/*Menu stylings*/>
-.menu{
+
+
+/*Menu stylings*/
+
+> .menu {
     background-color: red;
-    min-height:  100px
+    min-height: 100px;
 }
 
-
-.row{
+.rowx {
     margin: 0;
-    min-width:100%
+    min-width: 100%;
 }
-.about .column{
+
+.about .column {
     padding: 0
 }
-.about .column>img{
-    width: 100%
+
+.about .column>img {
+    width: 95%;
 }
 
 
 /*====gallery stylings=======*/
-.gallery img{
+
+.gallery img {
     width: 100%;
     opacity: .8
 }
-.gallery img:hover{
+
+.gallery img:hover {
     border: 0px solid black;
     opacity: 1
 }
 
-.full_height{
+.full_height {
     min-height: 100%;
 }
-.third_height{
+
+.third_height {
     min-height: 30%;
 }
 
-.hero{
+.hero {
     min-height: 100%;
     padding: 100px 0 100px 0;
     background-image: url(/img/top-bg.jpg);
@@ -56,43 +72,77 @@ p{
     font-family: 'Lato', sans-serif;
 }
 
+
 /*remove Padding styles from the columns in the gallery */
-.gallery .column{
+
+.gallery .column {
     padding-left: 0;
     padding-right: 0;
 }
 
+
 /*=======Themes colors=======*/
+
+
 /*Background theme color*/
 
-.bg-theme-color1{
+
+/*======backgrounds to reuse========*/
+
+.bgwhite2 {
+    background: #F8F6F6;
+}
+
+.bgwhite3lighter {
+    background: #ECFFFF;
+}
+
+.bgdark {
+    background-color: #27282C;
+    color: #FFFFFF;
+}
+
+.bgpinkish {
+    background-color: #F9E2FF;
+}
+
+.bggrayish {
+    background-color: #A89977;
+}
+
+
+/*=====End backgrounds to reuse========*/
+
+
+/*=====not using the themes below now*/
+
+.bg-theme-color1 {
     background-color: #ff77aa;
 }
-.bg-theme-color2{
+
+.bg-theme-color2 {
     background-color: #A99A77;
-
-
 }
+
+
 /*lightest color*/
-.bg-theme-color3{
+
+.bg-theme-color3 {
     background-color: #ffbbee;
 }
-.bg-theme-color4{
 
-}
-.bg-theme-color5{
+.bg-theme-color4 {}
+
+.bg-theme-color5 {
     background-color: black;
     color: aliceblue
 }
 
-
-
-.last{
+.last {
     background-color: #ff5588;
-
 }
 
-footer{
+footer {
     background-color: #ff3377;
     min-height: 5%
 }
