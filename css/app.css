@@ -25,10 +25,7 @@ p {
 
 /*Menu stylings*/
 
-> .menu {
-    background-color: red;
-    min-height: 100px;
-}
+
 
 .rowx {
     margin: 0;
@@ -48,7 +45,7 @@ p {
 
 .gallery img {
     width: 100%;
-    opacity: .8
+    opacity: .8;
 }
 
 .gallery img:hover {
@@ -68,7 +65,8 @@ p {
     min-height: 100%;
     padding: 100px 0 100px 0;
     background-image: url(/img/top-bg.jpg);
-    background-position: 100% 100%;
+    background-position: 50% 50%;
+    background-size: 130%;
     font-family: 'Lato', sans-serif;
 }
 
